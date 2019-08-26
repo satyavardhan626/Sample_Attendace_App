@@ -14,7 +14,7 @@ class Table extends Component {
         this.props.fetchProductsPending();
     }
     final=()=>{
-        this.props.history.push("/dashboard")
+        this.props.history.push("/admin")
 
     }
     render() {
