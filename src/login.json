@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "username": "hruday@gmail.com",
+            "password": "hruday123",
+            "id": 1,
+            "role": "user",
+            "userdata": []
+        },
+        {
+            "username": "satya@gmail.com",
+            "password": "hruday123",
+            "id": 2,
+            "role": "user",
+            "userdata": []
+        },
+        {
+            "username": "vinay@gmail.com",
+            "password": "hruday123",
+            "id": 3,
+            "role": "user",
+            "userdata": []
+        },
+        {
+            "username": "chandra@gmail.com",
+            "password": "hruday123",
+            "id": 4,
+            "role": "user",
+            "userdata": []
+        },
+        {
+            "username": "admin@gmail.com",
+            "password": "admin123",
+            "id": 5,
+            "role": "admin",
+            "userdata": []
+        }
+    ]
+}
