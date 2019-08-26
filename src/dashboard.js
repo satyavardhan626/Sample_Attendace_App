@@ -14,7 +14,9 @@ export default class Dashboard extends React.Component {
     componentDidMount() {
         let array = JSON.parse(localStorage.getItem("arrayData"));
         var refArray = [];
-        array.map((item, index) => {
+      
+if(array != null){
+	 array.map((item, index) => {
             let arr = [];
             let newArray = item.userdata;
             if (newArray.length != 0) {
@@ -38,6 +40,8 @@ export default class Dashboard extends React.Component {
             approved: arr2
 
         })
+}
+	 
     }
 
     handleItem = (item) => {
