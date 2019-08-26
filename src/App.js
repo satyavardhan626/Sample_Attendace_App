@@ -33,9 +33,9 @@ class Login extends Component {
       name === "vinay@gmail.com" && password === "hruday123" ||
       name === "chandra@gmail.com" && password === "hruday123"
     ) {
-      let arr = data.data;
-      let array = JSON.parse(localStorage.getItem("arrayData"));
-      if (array.length == 0) {
+      var arr=data.data;
+      let array = JSON.parse(localStorage.getItem("arrayData"));console.log("aaaaaaa",array)
+      if (array == null) {
         localStorage.setItem("arrayData", JSON.stringify(arr))
       }
       localStorage.setItem("useremail", name)
